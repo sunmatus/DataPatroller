@@ -2,7 +2,7 @@
 
 本项目是对[**echarts-for-weixin**](https://github.com/ecomfe/echarts-for-weixin)二次组件化封装的data-charts的使用示例。
 
-data-charts组件面向的对象是后端开发同学，目的是让后端开发在无需写大量前端代码的基础上，通过配置图表json（chartSettings）进行快递的图表渲染展示。
+data-charts组件面向的对象是后端开发同学，目的是让后端开发在无需写大量前端代码的基础上，通过配置图表json（chartSettings）进行快速的图表渲染展示开发。
 
 ## 使用方式
 
