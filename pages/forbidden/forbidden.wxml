@@ -1,0 +1,14 @@
+<!--pages/forbidden/forbidden.wxml-->
+
+<view class="forbidden-main">
+  <view class="forbidden-item">
+    <view class="forbidden-item-view">
+      <image src="https://previews.123rf.com/images/indomercy/indomercy1301/indomercy130100274/17444695-pig-forbidden.jpg"></image>
+      <text>Sorry, guys! You are </text>
+      <text id='text'>forbidden!</text>
+    </view>
+  </view>
+  <view wx:if="{{ isOfficer && !isAuthorized }}">
+    <button type="primary" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">授权用户信息</button>
+  </view>
+</view>

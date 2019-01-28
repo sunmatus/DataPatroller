@@ -1,0 +1,33 @@
+<!--index.wxml-->
+
+<wxs module="m">
+  var isDataPromote = function(str) {if (str.replace(' ', '').indexOf('-') == 0) {return '#FF0000';} else {return '#13C77F';}};  module.exports.isDataPromote = isDataPromote;
+</wxs>
+
+<view class="container">
+
+  <view class="view-container">
+    <view class= "card-view">
+      <view class="summary-title">
+        <text>核心指标概览</text>
+      </view>
+      <view class="summary-flex">
+        <block wx:for="{{ summaryData }}" wx:key="title">
+          <view class="summary-flex-item">
+            <view class="summary-flex-item-title">{{ item.title }}</view>
+            <view class="summary-flex-item-sub">
+              <text class="summary-flex-item-dim">{{ item.dim }}</text>
+              <text class="summary-flex-item-value">{{ item.value }}</text>
+            </view>
+          </view>
+        </block>
+      </view>
+    </view>
+    <block wx:for="{{ chartSettings }}" wx:key="chartId">
+      <view class="card-view">
+        <data-charts class="data-charts" chart-setting="{{ item }}" chart-id="{{ item.chartId }}"></data-charts>
+      </view>
+    </block>
+  </view>
+
+</view>

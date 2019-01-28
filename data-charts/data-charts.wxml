@@ -1,0 +1,16 @@
+<!--data-charts/data-charts.wxml-->
+<view class="dc-container">
+  <view class="title-container">
+    <text class="main-title">{{ chartSetting.chartTitle.mainTitle }}</text>
+    <text class="sub-title">{{ chartSetting.chartTitle.subTitle }}</text>
+    <view class="extra-desc">
+      <text class="extra-desc-main">{{ chartSetting.chartTitle.extraDescMain }}</text>
+      <text class="extra-desc-value">{{ chartSetting.chartTitle.extraDescValue }}</text>
+      <text class="extra-desc-change" style="color:{{ chartSetting.chartTitle.extraDescChangeColor }}">{{ chartSetting.chartTitle.extraDescChange }}</text>
+    </view>
+  </view>
+  
+  <view class="chart-container" style="height:{{ chartSetting.chartConfig.height }}">
+    <ec-canvas id="{{ chartId }}" canvas-id="{{ chartId }}" ec="{{ ec }}"></ec-canvas>
+  </view>
+</view>

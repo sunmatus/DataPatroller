@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/track/track",
+    "pages/forbidden/forbidden"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#48B142",
+    "navigationBarTitleText": "Data Patroller",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  }
+}
