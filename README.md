@@ -50,7 +50,7 @@ data-charts组件面向的对象时后端开发同学，目的是让后端开发
 
 请在使用组件内容的js文件(如track.js)中的chartSettings内配置图表数据：
 
-```json
+```js
 // 图表配置项示例
 chartSettings: [
   // 第一个图表配置
