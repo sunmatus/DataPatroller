@@ -15,7 +15,7 @@ data-charts组件面向的对象时后端开发同学，目的是让后端开发
 - **/pages/forbidden/forbidden**为用户授权页，首次使用时必须用户主动授权才可以使用。该页面打算完成用户鉴权部分，目前尚未完成。
 
 ### 配置图解
-
+![配置图解](https://raw.githubusercontent.com/sunmatus/DataPatroller/master/image/annotation.png)
 ### 引入组件
 
 请在使用组件页面的json文件(如track.json)中配置使用组件：
