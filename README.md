@@ -69,7 +69,10 @@ chartSettings: [
       subTitle: "2019/02/12",
       extraDescMain: "这是一个额外指标描述",
       extraDescValue: "35万",
-      extraDescChange: "+0.75%"
+      extraDescChange: "+0.75%",
+      mainTitleAlign:"left",
+      subTitleAlign:"left",
+      extraDescAlign:"right"
     },
     // 实际图内配置
     chartConfig: {
