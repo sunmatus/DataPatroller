@@ -79,7 +79,7 @@ chartSettings: [
       color: ["#FA6043", "#16AF8E", "#FED067", "#E1E2E4"], // 调色盘颜色列表。如果设置，会从这里面选取颜色渲染图表；如果没设置，使用默认配色方案
       splitLineShow: true,  // 是否启用分割线(默认样式：灰色虚线)
       height: "300rpx",     // 图的高度
-      dimensions: ["Province", "PV"],
+      dimensions: ["Province", "PV"],  // 接口数据与图表之间的映射，哪些反应到图表上。第一个为x轴
       // restful接口返回的实际业务数据(list)
       // sourceData: [], // 如果不设置apiSetting，也可以自己实现数据获取部分并填充到sourceData内；sourceData的格式必须是数组对象
       // 图表样式(设置line、bar...)(list)配置多个则为多条线
