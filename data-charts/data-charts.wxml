@@ -1,9 +1,9 @@
 <!--data-charts/data-charts.wxml-->
 <view class="dc-container">
   <view class="title-container">
-    <text class="main-title">{{ chartSetting.chartTitle.mainTitle }}</text>
-    <text class="sub-title">{{ chartSetting.chartTitle.subTitle }}</text>
-    <view class="extra-desc">
+    <text class="main-title" style="text-align:{{ chartSetting.chartTitle.mainTitleAlign }}">{{ chartSetting.chartTitle.mainTitle }}</text>
+    <text class="sub-title" style="text-align:{{ chartSetting.chartTitle.subTitleAlign }}">{{ chartSetting.chartTitle.subTitle }}</text>
+    <view class="extra-desc" style="text-align:{{ chartSetting.chartTitle.extraDescAlign }}">
       <text class="extra-desc-main">{{ chartSetting.chartTitle.extraDescMain }}</text>
       <text class="extra-desc-value">{{ chartSetting.chartTitle.extraDescValue }}</text>
       <text class="extra-desc-change" style="color:{{ chartSetting.chartTitle.extraDescChangeColor }}">{{ chartSetting.chartTitle.extraDescChange }}</text>
